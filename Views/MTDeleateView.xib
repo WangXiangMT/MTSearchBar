@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MTDeleateView" id="iN0-l3-epB" customClass="MTDeleateView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="109"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="清空历史记录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K6-ut-nLI">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Av-nL-RXO"/>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8Av-nL-RXO" secondAttribute="trailing" id="8S9-Wg-I60"/>
+                <constraint firstAttribute="bottom" secondItem="8Av-nL-RXO" secondAttribute="bottom" id="FZK-LQ-WVm"/>
+                <constraint firstItem="8Av-nL-RXO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LSY-dU-Ohc"/>
+                <constraint firstItem="6K6-ut-nLI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="P3y-2R-3vc"/>
+                <constraint firstItem="8Av-nL-RXO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="W8i-tZ-Puo"/>
+                <constraint firstItem="6K6-ut-nLI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rnt-ye-4L3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="clearBtn" destination="8Av-nL-RXO" id="GM5-rW-k0Y"/>
+                <outlet property="historyLab" destination="6K6-ut-nLI" id="2OF-ex-1WG"/>
+            </connections>
+            <point key="canvasLocation" x="45" y="253"/>
+        </view>
+    </objects>
+</document>
