@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E90A3261DD2CF520044CA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A3251DD2CF520044CA4D /* main.m */; };
+		2E90A3291DD2CF520044CA4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A3281DD2CF520044CA4D /* AppDelegate.m */; };
+		2E90A32F1DD2CF520044CA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E90A32D1DD2CF520044CA4D /* Main.storyboard */; };
+		2E90A3311DD2CF520044CA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E90A3301DD2CF520044CA4D /* Assets.xcassets */; };
+		2E90A3341DD2CF520044CA4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E90A3321DD2CF520044CA4D /* LaunchScreen.storyboard */; };
+		2E90A33D1DD2D1720044CA4D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A33C1DD2D1720044CA4D /* SearchViewController.m */; };
+		2E90A3401DD2D20C0044CA4D /* SearchNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A33F1DD2D20C0044CA4D /* SearchNavController.m */; };
+		2E90A34A1DD2D8750044CA4D /* MTSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A3491DD2D8750044CA4D /* MTSearchController.m */; };
+		2E90A34F1DD2F2590044CA4D /* MTSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A34E1DD2F2590044CA4D /* MTSearchTextField.m */; };
+		2E90A3571DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A3561DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.m */; };
+		2E90A35C1DD300AD0044CA4D /* MTSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A35A1DD300AD0044CA4D /* MTSearchCell.m */; };
+		2E90A35D1DD300AD0044CA4D /* MTSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E90A35B1DD300AD0044CA4D /* MTSearchCell.xib */; };
+		2E90A3601DD322440044CA4D /* MTListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A35F1DD322440044CA4D /* MTListViewController.m */; };
+		2E90A3631DD351C70044CA4D /* MTDeleateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A3621DD351C70044CA4D /* MTDeleateView.m */; };
+		2E90A3651DD351E90044CA4D /* MTDeleateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E90A3641DD351E90044CA4D /* MTDeleateView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E90A3211DD2CF520044CA4D /* MTSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E90A3251DD2CF520044CA4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E90A3271DD2CF520044CA4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E90A3281DD2CF520044CA4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E90A32E1DD2CF520044CA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E90A3301DD2CF520044CA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E90A3331DD2CF520044CA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E90A3351DD2CF520044CA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E90A33B1DD2D1720044CA4D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		2E90A33C1DD2D1720044CA4D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		2E90A33E1DD2D20C0044CA4D /* SearchNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchNavController.h; sourceTree = "<group>"; };
+		2E90A33F1DD2D20C0044CA4D /* SearchNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchNavController.m; sourceTree = "<group>"; };
+		2E90A3481DD2D8750044CA4D /* MTSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSearchController.h; sourceTree = "<group>"; };
+		2E90A3491DD2D8750044CA4D /* MTSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSearchController.m; sourceTree = "<group>"; };
+		2E90A34D1DD2F2590044CA4D /* MTSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSearchTextField.h; sourceTree = "<group>"; };
+		2E90A34E1DD2F2590044CA4D /* MTSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSearchTextField.m; sourceTree = "<group>"; };
+		2E90A3551DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MTBarButtonItem.h"; sourceTree = "<group>"; };
+		2E90A3561DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MTBarButtonItem.m"; sourceTree = "<group>"; };
+		2E90A3591DD300AD0044CA4D /* MTSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSearchCell.h; sourceTree = "<group>"; };
+		2E90A35A1DD300AD0044CA4D /* MTSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSearchCell.m; sourceTree = "<group>"; };
+		2E90A35B1DD300AD0044CA4D /* MTSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSearchCell.xib; sourceTree = "<group>"; };
+		2E90A35E1DD322440044CA4D /* MTListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTListViewController.h; sourceTree = "<group>"; };
+		2E90A35F1DD322440044CA4D /* MTListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTListViewController.m; sourceTree = "<group>"; };
+		2E90A3611DD351C70044CA4D /* MTDeleateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDeleateView.h; sourceTree = "<group>"; };
+		2E90A3621DD351C70044CA4D /* MTDeleateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDeleateView.m; sourceTree = "<group>"; };
+		2E90A3641DD351E90044CA4D /* MTDeleateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTDeleateView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E90A31E1DD2CF520044CA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E90A3181DD2CF520044CA4D = {
+			isa = PBXGroup;
+			children = (
+				2E90A3231DD2CF520044CA4D /* MTSearchBar */,
+				2E90A3221DD2CF520044CA4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E90A3221DD2CF520044CA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3211DD2CF520044CA4D /* MTSearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E90A3231DD2CF520044CA4D /* MTSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3271DD2CF520044CA4D /* AppDelegate.h */,
+				2E90A3281DD2CF520044CA4D /* AppDelegate.m */,
+				2E90A33E1DD2D20C0044CA4D /* SearchNavController.h */,
+				2E90A33F1DD2D20C0044CA4D /* SearchNavController.m */,
+				2E90A33B1DD2D1720044CA4D /* SearchViewController.h */,
+				2E90A33C1DD2D1720044CA4D /* SearchViewController.m */,
+				2E90A3501DD2F6A50044CA4D /* Category */,
+				2E90A3441DD2D76F0044CA4D /* Controllers */,
+				2E90A34C1DD2F21B0044CA4D /* Views */,
+				2E90A32D1DD2CF520044CA4D /* Main.storyboard */,
+				2E90A3301DD2CF520044CA4D /* Assets.xcassets */,
+				2E90A3321DD2CF520044CA4D /* LaunchScreen.storyboard */,
+				2E90A3351DD2CF520044CA4D /* Info.plist */,
+				2E90A3241DD2CF520044CA4D /* Supporting Files */,
+			);
+			path = MTSearchBar;
+			sourceTree = "<group>";
+		};
+		2E90A3241DD2CF520044CA4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3251DD2CF520044CA4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E90A3441DD2D76F0044CA4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3481DD2D8750044CA4D /* MTSearchController.h */,
+				2E90A3491DD2D8750044CA4D /* MTSearchController.m */,
+				2E90A35E1DD322440044CA4D /* MTListViewController.h */,
+				2E90A35F1DD322440044CA4D /* MTListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E90A34C1DD2F21B0044CA4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3581DD300770044CA4D /* Cell */,
+				2E90A34D1DD2F2590044CA4D /* MTSearchTextField.h */,
+				2E90A34E1DD2F2590044CA4D /* MTSearchTextField.m */,
+				2E90A3611DD351C70044CA4D /* MTDeleateView.h */,
+				2E90A3621DD351C70044CA4D /* MTDeleateView.m */,
+				2E90A3641DD351E90044CA4D /* MTDeleateView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E90A3501DD2F6A50044CA4D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3551DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.h */,
+				2E90A3561DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2E90A3581DD300770044CA4D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2E90A3591DD300AD0044CA4D /* MTSearchCell.h */,
+				2E90A35A1DD300AD0044CA4D /* MTSearchCell.m */,
+				2E90A35B1DD300AD0044CA4D /* MTSearchCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E90A3201DD2CF520044CA4D /* MTSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E90A3381DD2CF520044CA4D /* Build configuration list for PBXNativeTarget "MTSearchBar" */;
+			buildPhases = (
+				2E90A31D1DD2CF520044CA4D /* Sources */,
+				2E90A31E1DD2CF520044CA4D /* Frameworks */,
+				2E90A31F1DD2CF520044CA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTSearchBar;
+			productName = MTSearchBar;
+			productReference = 2E90A3211DD2CF520044CA4D /* MTSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E90A3191DD2CF520044CA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = WangXiangMT;
+				TargetAttributes = {
+					2E90A3201DD2CF520044CA4D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VYTJ2335M2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E90A31C1DD2CF520044CA4D /* Build configuration list for PBXProject "MTSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E90A3181DD2CF520044CA4D;
+			productRefGroup = 2E90A3221DD2CF520044CA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E90A3201DD2CF520044CA4D /* MTSearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E90A31F1DD2CF520044CA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E90A35D1DD300AD0044CA4D /* MTSearchCell.xib in Resources */,
+				2E90A3341DD2CF520044CA4D /* LaunchScreen.storyboard in Resources */,
+				2E90A3311DD2CF520044CA4D /* Assets.xcassets in Resources */,
+				2E90A32F1DD2CF520044CA4D /* Main.storyboard in Resources */,
+				2E90A3651DD351E90044CA4D /* MTDeleateView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E90A31D1DD2CF520044CA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E90A35C1DD300AD0044CA4D /* MTSearchCell.m in Sources */,
+				2E90A3291DD2CF520044CA4D /* AppDelegate.m in Sources */,
+				2E90A34A1DD2D8750044CA4D /* MTSearchController.m in Sources */,
+				2E90A3401DD2D20C0044CA4D /* SearchNavController.m in Sources */,
+				2E90A33D1DD2D1720044CA4D /* SearchViewController.m in Sources */,
+				2E90A3601DD322440044CA4D /* MTListViewController.m in Sources */,
+				2E90A34F1DD2F2590044CA4D /* MTSearchTextField.m in Sources */,
+				2E90A3261DD2CF520044CA4D /* main.m in Sources */,
+				2E90A3631DD351C70044CA4D /* MTDeleateView.m in Sources */,
+				2E90A3571DD2F8020044CA4D /* UIBarButtonItem+MTBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E90A32D1DD2CF520044CA4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E90A32E1DD2CF520044CA4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E90A3321DD2CF520044CA4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E90A3331DD2CF520044CA4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E90A3361DD2CF520044CA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E90A3371DD2CF520044CA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E90A3391DD2CF520044CA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VYTJ2335M2;
+				INFOPLIST_FILE = MTSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangxiang.MTSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E90A33A1DD2CF520044CA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VYTJ2335M2;
+				INFOPLIST_FILE = MTSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangxiang.MTSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E90A31C1DD2CF520044CA4D /* Build configuration list for PBXProject "MTSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E90A3361DD2CF520044CA4D /* Debug */,
+				2E90A3371DD2CF520044CA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E90A3381DD2CF520044CA4D /* Build configuration list for PBXNativeTarget "MTSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E90A3391DD2CF520044CA4D /* Debug */,
+				2E90A33A1DD2CF520044CA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E90A3191DD2CF520044CA4D /* Project object */;
+}
